@@ -1,0 +1,39 @@
+h1 { text-align: right; }
+
+h1, h2, td:first-child { color: orange; }
+
+h2:last-of-type { color: blue; }
+
+p::first-letter { 
+    color: red; 
+    font-size: 2em; 
+}
+
+mark { 
+    font-style: italic;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+
+span { font-weight: bold; }
+
+ul:first-of-type li:first-child ol { color: grey; }
+
+ul:last-of-type li:first-child ol {color: green; }
+
+ul li:last-child ol { color: #ff0000; }
+
+table, th, td { 
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+th { padding: 0em 1em; }
+
+td:not(:first-child) { 
+    background-color: green;
+    color: white;
+    text-align: center;
+}
