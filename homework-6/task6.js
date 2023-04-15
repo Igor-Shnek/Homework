@@ -29,5 +29,5 @@ loadJSON(function (array) {
     var ages = [];
     getAges(array, ages);
     var averageAge = ages.reduce((sum, current) => sum + current)/ages.length;
-    console.log("Средний возраст участников: " + averageAge.toFixed(1));
+    console.log("Средний возраст участников: " + averageAge);
 });
